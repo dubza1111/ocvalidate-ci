@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: "Download latest OpenCorePkg release"
-        uses: robinraju/release-downloader@v1.5
+        uses: robinraju/release-downloader@d5673a24e65c6d286599c0ac7019805d32e15c0b # v1.5
         with:
           repository: "acidanthera/OpenCorePkg"
           latest: true
